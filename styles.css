@@ -1,0 +1,86 @@
+body{
+  background-color: #121417;
+  width:1440px;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  }
+  h2{
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+
+  }
+p{
+  color:#7c8798;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* RATING SECTION CARD */
+.card-design{
+  background-color: #252d37;
+  padding:40px;
+  border-radius: 20px;
+  width: 30%;
+}
+
+.star-img{
+  margin:10px 0 40px;
+  border: 10px solid #2C3639;
+  border-radius: 50%;
+
+}
+
+.button-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+.rating-buttons{
+  background-color:#2C3639;
+  color: white;
+  font-weight: 400;
+  height: 50px;
+  width: 50px;
+  border-radius: 50% ;
+  border: 0;
+}
+.submit-button{
+background-color: orange;
+color: white;
+font-weight: 700;
+letter-spacing: 2px;
+width: 100%;
+margin: 25px 0 0;
+border-radius: 25px;
+}
+
+/* HOVER STATE OF RATING CARD */
+.submit-button:hover{
+  background-color: white;
+  color: orange;
+}
+.rating-buttons:hover{
+  background-color: orange;
+}
+
+/* THANKS CARD */
+.thanks-card{
+  text-align: center;
+}
+.thanks-img{
+  margin: 10px 0 15px;
+
+}
+.thanks-rating{
+  color: orange;
+  margin: 10px 0 30px;
+  border-radius: 25px;
+  padding:5px 30px;
+  font-weight:700;
+}
